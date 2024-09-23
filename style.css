@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logotwieeter{
+    width: 70px;
+    height: 50px;
+}
+#container{
+    background-color: white;
+    padding: 30px 120px;
+    width: 500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+}
+h1{
+    margin-bottom: 20px;;
+}
+
+button
+{
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 30px;
+    border:2px solid #cccc;
+    font-size: medium;  
+    text-align: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align-last: center;
+}
+
+#container button img
+{
+    width: 40px;
+    height: 30px;
+    float: left;
+    border-radius: 15px;
+}
+
+
+#applebut
+{
+    font-weight: bold;
+
+}
+
+hr{
+    border:0;
+    height: 1px;
+    background-color: #706c6ccc;
+    margin:5px;
+}
+span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: -16px;
+    background-color: #fff;
+
+}
+#container input{
+    width: 100%;
+    background: transparent;
+    padding:15px 10px;
+    margin: 20px 0;
+    border:1px solid #999;
+    color:#999;
+    font-weight: bold;
+    font-size: medium;
+}
+.nextbtn{
+    background-color: black;
+    color: white;
+    border:0;
+}
+.forgotbtn{
+    font-weight: bold;
+}
+
+a{
+    float:left;
+    text-decoration: none;
+    color:rgb(18, 156, 177)
+    
+    
+}
+p{
+   float:left;
+   color:#716d6d;
+
+}
