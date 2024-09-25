@@ -3,45 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>AnB</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-
-        
+        <h1>AirBed & Breakfast - Find a place to stay.</h1>
+        <ul>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Sign In</a></li>
+        </ul>
+        <p>This listing in no longer availabe.</p>
+        <hr>
 
     </header>
     <main>
-        <div id="container">
-            <img src="img/Screenshot 2023-07-12 at 17.36.57.png" class="logotwieeter">
-            <h1>Sign in to Twietter</h1>
-        
-            <button class="logo">
-                <img src="img/Screenshot 2023-07-12 at 17.37.15.png" alt="Google logo">
-                Sign in with Google
-            </button>
-            <button type="submit" class="logo" id="applebut">
-                <img src="img/Screenshot 2023-07-12 at 17.37.24.png" alt="Apple logo">
-                Sign in with Apple
-            </button>
+        <div class="gridbox">
+            <div class="box1">
+                <h3>Find a place to stay.</h3>
+                <a href="#">Rent nightly from real people in 830 cities in 73 countries. </a>
+                <form>
+                    <input type="text" placeholder="Where are you going?">
+                    <p>-</p>
+                    <label for="indate">Check in</label><br>
+                    <input type="date" id="indate"><br>
+                    <label for="outdate">Check out</label><br>
+                    <input type="date" id="outdate"><br>
+                    <label for="guest">Guests</label><br>
+                    <select id="numbers" name="numbers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </form>
+            </div>
+            <div class="box2">
+            <img src="img/Amsterdam.jpg" class="ams-img"><br>
+            <img src="img/woman.jpg" class="wo-img"><br>
+            <a href="#">"Gabs place"</a>
+            <span>- Amsterdam, Netherlands</span>
+            <p>$85/night</p>
+            <p>1 Review</p>
+            </div>
+            <div class="box3">
+                <span>Frances & Greg, Los Angeles</span><br>
+                <p>Recently reviwed</p>
+                <img src="img/woman-man.jpg"><br>
+                <span>Washington DC</span><br>
+                <p>From $10/night</p>
+                <img src="img/wash-dc.jpg"><br>
+                <span>Paris, France</span>
+                <p>Rooms from $20/night</p>
+                <img src="img/Paris.jpg">
 
-            <hr></hr>
-            <span>or</span>
-            <form>
-                <input type="text" placeholder="Phone, email or username">
-                <button class="nextbtn">Next</button>
-                <button class="forgotbtn">Forgot password?</button>
-                <p>Don't have an account?</p>
-                <a href="#">Sign up</a>
-
-            </form>
-            
-
+            </div>
+            <div class="box4">
+                <span>San Francisco CA</span>
+                <p>Rooms from $29/night</p>
+                <img src="img/sanfranc.jpg">
+            </div>
         </div>
+            <div class="box-logo">
+                <p>As seen on:</p>
+                <img src="logo/CNN-Logo.wine.png">
+                <img src="logo/The_New_York_Times_logo.png">
+                <img src="logo/TechCrunch-Logo-2011.png">
+                <img src="logo/newsweek.png">
+                <img src="logo/the wall street.png">
+                <img src="logo/nbc.png">
+            </div>
+            <div class="linkbox">
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Privacy</a>
+                    </li>
+                    <li>
+                        Biggest Deals:
+                        <a href="#">New York</a>
+                    </li>
+                    <li>
+                        <a href="#">San Francisco</a>
+                    </li>
+                    <li>
+                        <a href="#">Paris</a>
+                    </li>
+                    <li>
+                        Join us on:
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
 
     </main>
     <footer>
+        <p>&copy; AirBed & Breakfast, Inc.</p>
+    
 
     </footer>
 </body>
