@@ -3,143 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mobile shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-     rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
-      crossorigin="anonymous">
+    <title>Cragis List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid" >
-          <a class="navbar-brand" href="#">Mobile Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index2.html">Join Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+
+
+    <div class="navbar">
+        <div class="item1">
+            <h1>
+                <a href="#">Cragis List</a>
+            </h1>
+
+        </div>
+        <div class="item2">
+            <h1 class="title">San franscisco bay area</h1>
+
+        </div>
+
+        <div class="item3">
+            <select name="cragislist" >
+                <option>other Cragislists</option>
+                <option>1 list</option>
+                <option>2 list</option>
+            </select>
+            <button>go</button>
+        </div>
+
+    </div>
+
+    <div class="grid-container">
+        
+        
+        <div class="item4 col1">
+            <div>
+                <a class="col1-link1" href="#">help?</a>
+                <a class="col1-link1" href="#">post a listing</a>
+                <a class="col1-link1" href="#">FAQ</a>
+                <a class="col1-link1" href="#">subscription</a>
+        </div>
+            <form class="formbox">
+                <label class="formlabel" for="searchbox">search cragislist</label>
+                <input type="search" id="searchbox"><br>
+                <select>
+                    <option>
+                        community
+                    </option>
+                    <option>
+                        personals
+                    </option>
+                    <option>
+                        jobs
+                    </option>
+                    <option>
+                        sale
+                    </option>
+                </select><br>
+                <button class="searchbutton">search</button>
+
             </form>
-          </div>
-        </div>
-      </nav>
-      <!-- slide -->
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators ">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <img src="img/img1.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+            <div class="col1-link2">
+            <a href="#">feedback</a><br>
+            <a href="#">our policies</a><br>
+            <a href="#">about cragislist</a>
+            <a href="#" class="linkemail">questions@cragislist.org</a>
+            <p>updated 14 June 2000</p>
+            
+            </div>
+            
+            
 
-      <!-- box -->
-      <div class="card d-print-grid d-flex" style="width: 18rem;">
-        <img src="img/img1.jpg" class="card-img-top d-print-grid" alt="mobile1">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card d-print-grid" style="width: 18rem;">
-        <img src="img/img2.jpg" class="card-img-top" alt="mobile2">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="img/img3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
 
-      <!-- footer -->
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+        <div class="item5 ">
+            <div class="subitem5-1 itemsmargin">
+                <table>
+                    <thead class="theadtb ">
+                        <tr>
+                            <th>cmomunity & events</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><a href="#">events / entertainment</a></td></tr>
+                        <tr><td><a href="#">tech events</a></td></tr>
+                        <tr><td><a href="#">classes / workshops</a></td></tr>
+                        <tr><td><a href="#">artist / musicians</a></td></tr>
+                        <tr><td><a href="#">community</a></td></tr>
+                        <tr><td><a href="#">pets / animals</a></td></tr>
+                        <tr><td><a href="#">volunteers</a></td></tr>
+                        <tr><td>review / recommed</td></tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="subitem5-2 itemsmargin">
+                <table>
+                    <thead class="theadtb">
+                        <tr>
+                            <th>personals</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><a href="#">women for women</a></td></tr>
+                        <tr><td><a href="#">women for men</a></td></tr>
+                        <tr><td><a href="#">men for women</a></td></tr>
+                        <tr><td><a href="#">men for man</a></td></tr>
+                        <tr><td><a href="#">misc romance</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="subitem5-3 itemsmargin">
+                <table>
+                    <tbody>
+                        <tr><td><a href="#">activity partners</a></td></tr>
+                        <tr><td><a href="#">carpool / rideshare</a></td></tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="itemsmargin">
+                <a href="#">discussion boards</a>
+            </div>
+        </div>
+
+        
+
+        <div class="item6">
+            <div class="subitem6-1 itemsmargin">
+            <table>
+                <thead class="theadtb">
+                    <tr>
+                        <th>housing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><a href="#">apts / housing</a></td></tr>
+                    <tr><td><a href="#">apts / housing wanted</a></td></tr>
+                    <tr><td><a href="#">roms / shared</a></td></tr>
+                    <tr><td><a href="#">rooms / shared wanted</a></td></tr>
+                    <tr><td><a href="#">sublets/ temporary / vac</a></td></tr>
+                    <tr><td><a href="#">office / commercial</a></td></tr>
+                    <tr><td><a href="#">parking /storage</a></td></tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="subitem6-2 itemsmargin">
+            <table>
+                <thead class="theadtb">
+                    <tr>
+                        <th>sale / wanted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><a href="#">barter / swap/ free</a></td></tr>
+                    <tr><td><a href="#">bikes / cyrcle / scooters</a></td></tr>
+                    <tr><td><a href="#">cars / truks</a></td></tr>
+                    <tr><td><a href="#">computer / tech stuff</a></td></tr>
+                    <tr><td><a href="#">general for sale</a></td></tr>
+                    <tr><td><a href="#">items wanted</a></td></tr>
+                    <tr><td><a href="#">small biz ads</a></td></tr>
+                    <tr><td><a href="#">tickets</a></td></tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="subitem6-3 itemsmargin">
+                <a href="#">resumes</a><br>
+                <a href="#">freelance service 1099</a>
+            </div>
+        </div>
+    
+        <div class="item7">
+            <table>
+                <thead class="theadtb">
+                    <tr>
+                        <th>jobs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><a href="#">accounting / finance</a></td></tr>
+                    <tr><td><a href="#">admin / customer service</a></td></tr>
+                    <tr><td><a href="#">architect / engineer / CAD</a></td></tr>
+                    <tr><td><a href="#">arts / print /design</a></td></tr>
+                    <tr><td><a href="#">business / e-biz / mgmt</a></td></tr>
+                    <tr><td><a href="#">human resources</a></td></tr>
+                    <tr><td><a href="#">internet / web engineering</a></td></tr>
+                    <tr><td><a href="#">legal / paralegal</a></td></tr>
+                    <tr><td><a href="#">marketing / advertising / pr</a></td></tr>
+                    <tr><td><a href="#">medical / health / biotech</a></td></tr>
+                    <tr><td><a href="#">network / telecomm /WAN</a></td></tr>
+                    <tr><td><a href="#">nonprofit sector</a></td></tr>
+                    <tr><td><a href="#">retail / hospitality / food</a></td></tr>
+                    <tr><td><a href="#">sales / biz dev</a></td></tr>
+                    <tr><td><a href="#">sotware / QA / DBA / etc</a></td></tr>
+                    <tr><td><a href="#">system administration</a></td></tr>
+                    <tr><td><a href="#">technical support</a></td></tr>
+                    <tr><td><a href="#">tv / film / video / radio</a></td></tr>
+                    <tr><td><a href="#">web / info design</a></td></tr>
+                    <tr><td><a href="#">writing / editing</a></td></tr>
+                    <tr><td><a href="#">et cetra</a></td></tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+
     
 </body>
 </html>
